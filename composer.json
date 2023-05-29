@@ -1,0 +1,21 @@
+{
+  "name": "agalyomarov/hello-world",
+  "description": "Свой пакет на php",
+  "type": "library",
+  "license": "GPL-3.0",
+  "autoload": {
+    "psr-4": {
+      "Agalyomarov\\HelloWorld\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Agaly Omarov",
+      "email": "omaraly971215@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0"
+  }
+}
